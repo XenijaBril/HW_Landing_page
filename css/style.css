@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 30px 150px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:350px;
+}  
+
+.logo {
+ font-style: oblique;
+   
+}
+
+.menu_item {
+  /* border-bottom: 3px solid transparent; Прозрачная страница */
+  padding: 0 50px;
+  
+   
+}
+
+
+
+
