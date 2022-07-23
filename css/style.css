@@ -19,28 +19,57 @@ header {
     justify-content: space-between;
     background-color: antiquewhite;
     align-items: center;
-    padding: 30px 150px;
+    padding: 30px 50px;
     
 }
 
 .menu {
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    width:350px;
+    justify-content: flex-end;
+    /* align-items: center; */
+    /* width:350px; */
 }  
 
 .logo {
- font-style: oblique;
+    font-style: oblique;
+    padding: 0 10px;
    
 }
 
 .menu_item {
-  /* border-bottom: 3px solid transparent; Прозрачная страница */
-  padding: 0 50px;
-  
+    padding: 0 50px;
+
+}
+
+.menu_item:hover {
+    color: brown;
+    border-bottom: 1px solid brown;
    
 }
+
+.main_container {
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    
+}
+img {
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.main_text {
+    width: 50%;
+    
+    
+}
+
+
+
+
 
 
 
